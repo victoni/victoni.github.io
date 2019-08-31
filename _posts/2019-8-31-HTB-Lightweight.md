@@ -95,5 +95,5 @@ And there is the *sweet* root flag :D
 f1d4e309c*******************
 ```
 
-PS: "But if you don't get a shell and can't run code, is a system really owned? :thinking:".
+PS: "But if you don't get a shell and can't run code, is a system really owned?".
 Searching for some way to get a root shell I came across [this](https://medium.com/@int0x33/day-44-linux-capabilities-privilege-escalation-via-openssl-with-selinux-enabled-and-enforced-74d2bec02099) article, where one can rewrite the /etc/shadow file.
