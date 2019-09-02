@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Bug Hunting: Understanding and detecting Open Redirections
 ---
 
 # Bug Hunting: Understanding and detecting Open Redirections
