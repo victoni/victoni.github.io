@@ -1,3 +1,8 @@
+---
+layout: post
+categories: "Open Redirection" "Bug Hunting" 
+---
+
 I recently started giving my first shots on Bug Hunting, even though I have no previous experience on security apart from HTB, CTFs and learning in general. And nevertheless, I came across my first bug: an Open Redirection.
 
 ## What's an Open Redirection vulnerability?

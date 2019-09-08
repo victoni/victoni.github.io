@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HTB Lightweight
+categories: hackthebox ldap openssl
 ---
 
 I enjoyed Lightweight, as it was kind of a different box from what I've come across, especially in the user part.
