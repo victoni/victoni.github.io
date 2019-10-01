@@ -1,7 +1,4 @@
----
-layout: post
-title: Bug Bounty: XSS on Cookie pop-up warning
----
+# Bug Bounty: XSS on Cookie pop-up warning
 
 ### This is a write-up about a weird XSS vuln I found, that made me think I was losing my mind.
 
