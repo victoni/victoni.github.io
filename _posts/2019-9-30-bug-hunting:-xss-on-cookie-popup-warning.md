@@ -1,16 +1,13 @@
-# Bug Bounty: XSS on Cookie pop-up warning
 
 ### This is a write-up about a weird XSS vuln I found, that made me think I was losing my mind.
 
 ![bug hunting](../images/bug.png)
 
-While doing some bug hunting on a website, I entered a XSS payload as a subdirectory in the URL, in order to see if and how it was reflected on the source code. For testing purposes I always use a payload with common XSS characters that are filtered in fear of triggering an XSS. After entering the 
+While doing some bug hunting on a website, I entered a XSS payload as a subdirectory in the URL, in order to see if and how it was reflected on the source code. For testing purposes I always use a payload with common XSS characters that are filtered in fear of triggering an XSS. After entering the
 
-```https://website.com/"></>{}()vict0ni``` 
+``https://website.com/"></>{}()vict0ni``
 
-I got a custom 404 response page. Looking at the source code, the URL was reflected in 3 places.
-In the two of them the payload was sanitized, but on the third one everything were getting 
-reflected as they were. The source code for the third reflection was something like this:
+I got a custom 404 response page. Looking at the source code, the URL was reflected in 3 places. In the two of them the payload was sanitized, but on the third one everything were getting reflected as they were. The source code for the third reflection was something like this:
 
 ```html
 <input type="hidden" name="DismissCookieNotice" value="true" />
