@@ -9,7 +9,7 @@ While doing some bug hunting on a website, I entered a XSS payload as a subdirec
 
 I got a custom 404 response page. Looking at the source code, the URL was reflected in 3 places. In the two of them the payload was sanitized, but on the third one everything were getting reflected as they were. The source code for the third reflection was something like this:
 
-```html
+```
 <input type="hidden" name="DismissCookieNotice" value="true" />
 <input type="hidden" name="redirected" value="https://www.website.com/"></>{}()vict0ni" />
 <input type="hidden" name="csrf" value=[something] />
