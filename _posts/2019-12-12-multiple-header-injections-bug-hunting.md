@@ -11,10 +11,10 @@ The API was working that way, so that the user has to provide a X-API-KEY header
 
  To my surprise, setting the header to anything but the initial Host header value, would result to getting a 200 response, i.e. OK. Still, I couldn't use the API, but I could enumerate directories and access the (previously inaccessible) robots.txt file, where I could partially see the structure of the website. 
 
-*Before the injection*
+### *Before the injection*
 ![robots.txt no inj](../images/no_inj.png)
 
-*After the injection*
+### *After the injection*
 ![robots.txt agter inj](../images/after_inj.png)
 
 Still, I was getting some 403 responses but the weird thing was that non existent directories would return a 200 response (I think the directory /vict0niIsTheBest doesn't exist, but still got me a 200 response). That way, I couldn't say if a directory that responded with a 200 really existed or not without looking at it's content.
