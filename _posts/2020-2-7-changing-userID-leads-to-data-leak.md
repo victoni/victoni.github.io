@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Changing userID leads to Data leakage and Profile Update
+title: IDOR leads to Data leakage and Profile Update
 categories: bug hunting 
 ---
 
@@ -58,7 +58,7 @@ CF-RAY: 560d8dc0581c4098-HAM
 ```
 So I was making an OPTIONS request and then a PUT request with my personal userID ``5e335fafedd93a1f35b6ca27`` updating my first name (one could only change the first and last name).
 
-I always make two accounts when testing a web app. I did the same thing for my second account, just in order to grab that userID. Then I thought what could happen if I used the userID of account B in a request to update the account A. So I did the exact same thing as described above, being authorized as a user of account A, but using the userID of account B:
+I always make two accounts when testing a web app. I did the same thing for my second account, just to grab its userID. Then I thought what could happen if I used the userID of account B in a request to update the account A. So I did the exact same thing as described above, being authorized as a user of account A, but using the userID of account B:
 
 ```
 PUT /users/5e3c8692f3d2c616c6ed78e9 HTTP/1.1
