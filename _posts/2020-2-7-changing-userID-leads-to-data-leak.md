@@ -104,7 +104,7 @@ import itertools
 
 string = '0123456789abcdef'
 file = open('userIDs.txt', 'w')
-for p in itertools.product(string, repeat=15):
+for p in itertools.product(string, repeat=24):
 	writing = ''.join(p) + '\n'
 	file.write(writing)
 file.close()
