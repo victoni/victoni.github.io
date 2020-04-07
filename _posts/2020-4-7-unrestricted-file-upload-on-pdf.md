@@ -5,6 +5,7 @@ categories: bug hunting
 ---
 
 While I'm stuck at quarantine like the rest of the world, I have more time to work on my web app hacking skills by doing some bug bounties. From those bugs that I found in this long BB session of mine, I got to report my first Unrestricted File Upload.
+
 OWASP explains the vulnerability in great detail [here](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload).
 
 So the functionality of the service goes like that: a user can upload their CV on the website. The web app renames and saves the file, which is going to be examined later by an employee of the company on their computer locally. After examining the file, the employee will update the user's profile based on the info of the CV.
