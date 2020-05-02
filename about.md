@@ -9,4 +9,4 @@ Hey there! I'm vict0ni, a computer science student and a bug bounty hunter. I'm 
 ### More Information
 You can find me on twitter [@vict0ni](https://twitter.com/vict0ni)
 
-![HTB vict0ni](http://www.hackthebox.eu/badge/image/87180) ![testing_statistics](https://iplogger.org/1zddq7)
+![HTB vict0ni](http://www.hackthebox.eu/badge/image/87180)
