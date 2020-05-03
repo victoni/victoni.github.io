@@ -9,6 +9,5 @@ Hey there! I'm vict0ni, a computer science student and a bug bounty hunter. I'm 
 ### More Information
 You can find me on twitter [@vict0ni](https://twitter.com/vict0ni)
 
-![HTB vict0ni](http://www.hackthebox.eu/badge/image/87180)
-
+![HTB vict0ni](http://www.hackthebox.eu/badge/image/87180)  
 [![Buy me a coffee](https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/rsz_lato-orange.png)](https://www.buymeacoffee.com/vict0ni)
