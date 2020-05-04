@@ -34,3 +34,5 @@ This can be a note to myself for every time I get stuck in a box. No, vict0ni, t
 (If you're like @Baud, replace the word "Windows" with "Linux")
 
 ### Now go hack!
+
+![htb vict0ni](http://www.hackthebox.eu/badge/image/87180)
