@@ -8,3 +8,6 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+*old*
+test/
+_sass/old*
