@@ -22,7 +22,7 @@ categories: bughunting
 ```
 * Google dorks
 
-``site:domain.com inrul:[PARAMETER]`` using the [parameter list](https://github.com/victoni/Bug-Bounty-Scripts/blob/master/open_redirection_parameters.txt)
+	``site:domain.com inrul:[PARAMETER]`` using the [parameter list](https://github.com/victoni/Bug-Bounty-Scripts/blob/master/open_redirection_parameters.txt)
 * Manual inspection by navigating the webapp and intercepting the requests
 
 
