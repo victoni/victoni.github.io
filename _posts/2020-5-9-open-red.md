@@ -6,6 +6,7 @@ categories: bughunting
 
 ### Identify:
 * [waybackurls](https://github.com/tomnomnom/waybackurls) + [hakrawler](https://github.com/hakluke/hakrawler) + [gf](https://github.com/tomnomnom/gf)
+	
 	*1*. ``cat subdomains | waybackurls | tee -a urls``
 	*2*. ``cat subdomains | hakrawler -depth 3 -plain | tee -a urls``
 	*3*. ``gf redirect urls``
@@ -50,7 +51,7 @@ Open Redirect + Filtered SSRF => SSRF
 Open Redirect + CRLFi => XSS
 Open Redirect + javascript URI => XSS
 ```
-\
+
 Escalate to XSS
 * `` ?redirect=javascript:alert(1)``
 * `` ?redirect=javascript:prompt(1)``
