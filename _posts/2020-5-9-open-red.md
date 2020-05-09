@@ -8,7 +8,9 @@ categories: bughunting
 * [waybackurls](https://github.com/tomnomnom/waybackurls) + [hakrawler](https://github.com/hakluke/hakrawler) + [gf](https://github.com/tomnomnom/gf)
 	
 	*1*. ``cat subdomains | waybackurls | tee -a urls``
+	
 	*2*. ``cat subdomains | hakrawler -depth 3 -plain | tee -a urls``
+	
 	*3*. ``gf redirect urls``
 
 	using ``redirect.json``:
