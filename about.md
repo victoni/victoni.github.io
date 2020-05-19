@@ -22,5 +22,6 @@ Hey there! I'm vict0ni, a computer science student and a bug bounty hunter. I'm 
 * [Napoleon Games NV](https://www.napoleongames.be/)
 * [Silver Gold Bull Inc.](https://silvergoldbull.com)
 * [Infomart Corporation](https://www.infomart.co.jp/e/information/index.asp)
+* [House of HR](https://www.houseofhr.com/)
 
 [![Buy me a coffee](https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/rsz_rsz_lato-orange.png)](https://www.buymeacoffee.com/vict0ni)
