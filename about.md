@@ -11,7 +11,7 @@ I’m a computer science student and a bug bounty hunter. I’m mainly intereste
 # Organisations helped to secure themselves
 
 * [GULP – experts united](https://www.gulp.de/)
-	* #1 on their [leaderboard](https://www.intigriti.com/researcher/programs/randstad/gulp/leaderboard?alltime=true&severity=1) (May)
+	* #2 on their [leaderboard](https://www.intigriti.com/researcher/programs/randstad/gulp/leaderboard?alltime=true&severity=1) (May)
 * [SweatCo LTD](https://sweatco.in/)
 * [DPG Media](https://www.dpgmedia.be/nl)
 * [Pactly Private LTD](https://pactly.ai)
