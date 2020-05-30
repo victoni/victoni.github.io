@@ -27,5 +27,5 @@ I’m a computer science student and a bug bounty hunter. I’m mainly intereste
 * [Silver Gold Bull Inc.](https://silvergoldbull.com)
 * [Infomart Corporation](https://www.infomart.co.jp/e/information/index.asp)
 
-
+\
 [![Buy me a coffee](https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/rsz_rsz_lato-orange.png)](https://www.buymeacoffee.com/vict0ni)
