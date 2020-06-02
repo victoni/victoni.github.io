@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Double URL-encoded XSS
-categories: bug hunting xss
+categories: bughunting xss
 ---
 
 Right after the quarantine ended I had a mini burn out for more than a month, where I didn't even bothered to try and hunt for bugs. After those one and a half months of trying to find my motivation again, I discovered another two vulnerabilities on one program (well, actually the first one ended up being from a third party organisation). One of them was a XSS that required a bit more work than the usual `javascript:alert(1)` payloads.
