@@ -4,7 +4,7 @@ title: Double URL-encoded XSS
 categories: bughunting xss
 ---
 
-Right after the quarantine ended I had a mini burn out for more than a month, where I didn't even bothered to try and hunt for bugs. After those one and a half months of trying to find my motivation again, I discovered another two vulnerabilities on one program (well, actually the first one ended up being from a third party organisation). One of them was a XSS that required a bit more work than the usual `javascript:alert(1)` payloads.
+Right after the quarantine ended I had a mini burn out for more than a month, where I didn’t even bother to try and hunt for bugs. After those one and a half months of trying to find my motivation again, I found a XSS that required a bit more thinking than the typical `javascript:alert(1)` cases.
 
 Revisiting my old notes from a BB program, I observed an endpoint that I tried to exploit the last time, before I go through that burn out. Back then I wasn't able to exploit it, so now I thought I'd give it a second chance. The endpoint was `https://example.com/dir/legacy-browser?redir=/`. There was a button, where you would get redirected to the endpoint the paramteter `redir` was pointing. Analyzing the source code, I could see that the website was redirecting the user this way:
 
