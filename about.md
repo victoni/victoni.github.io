@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I’m a computer science student and a bug bounty hunter. I’m mainly interested in web application security, pentesting and programming. Of course, any interesting CS-related article may pop-up.
+I’m a computer science student and a part time bug bounty hunter. I’m mainly interested in web application security, pentesting and programming. Of course, any interesting CS-related article may pop-up.
 
 [![intigriti vict0ni](https://img.shields.io/badge/intigriti-%40vict0ni-blue?style=flat-square)](https://www.intigriti.com/profile/vict0ni) [![0x00sec vict0ni](https://img.shields.io/badge/0x00sec-%40vict0ni-black?style=flat-square)](https://0x00sec.org/u/vict0ni/)
 
