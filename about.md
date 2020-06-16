@@ -15,17 +15,21 @@ I’m a computer science student and a part time bug bounty hunter. I’m mainly
 	* #2 on their [leaderboard](https://www.intigriti.com/researcher/programs/randstad/gulp/leaderboard?alltime=true&severity=1) (May)
 * [DPG Media](https://www.dpgmedia.be/nl)
 * [The government of the Netherlands](https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure)
+* [The government of Cyprus](https://www.openbugbounty.org/reports/1152682/)
 * [Pactly Private LTD](https://pactly.ai)
 * [Monster Worldwide](https://www.monster.com/career-advice/)
 * [Napoleon Games NV](https://www.napoleongames.be/)
 * [House of HR](https://www.houseofhr.com/)
+* [Boussias  Communications](https://www.openbugbounty.org/reports/1189683/)
 
 ## 2019
 * [SweatCo LTD](https://sweatco.in/)
 * [BeyondTrust](https://www.beyondtrust.com)
 * [Humanoid SAS](https://www.frandroid.com/a-propos/)
+* [XE](https://www.openbugbounty.org/reports/978465/)
 * [Silver Gold Bull Inc.](https://silvergoldbull.com)
 * [Infomart Corporation](https://www.infomart.co.jp/e/information/index.asp)
+* [NetWeek Gr](https://www.openbugbounty.org/reports/983824/)
 
 
 [![Buy me a coffee](https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/rsz_rsz_lato-orange.png)](https://www.buymeacoffee.com/vict0ni)
