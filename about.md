@@ -12,7 +12,7 @@ I’m a bachelor computer science student and I write about bug bounties, web ap
 
 ## 2020
 * [GULP – experts united](https://www.gulp.de/)
-	* #2 on their [leaderboard](https://www.intigriti.com/researcher/programs/randstad/gulp/leaderboard?alltime=true&severity=1) (May)
+	* [leaderboard](https://www.intigriti.com/researcher/programs/randstad/gulp/leaderboard?alltime=true&severity=1)
 * [DPG Media](https://www.dpgmedia.be/nl)
 * [The government of the Netherlands](https://www.government.nl/topics/cybercrime/fighting-cybercrime-in-the-netherlands/responsible-disclosure)
 * [The government of Cyprus](https://www.openbugbounty.org/reports/1152682/)
