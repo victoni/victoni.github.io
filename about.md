@@ -18,6 +18,7 @@ I’m a bachelor computer science student and I write about bug bounties, web ap
 * [The government of Cyprus](https://www.openbugbounty.org/reports/1152682/)
 * [Pactly Private LTD](https://pactly.ai)
 * [Monster Worldwide](https://www.monster.com/career-advice/)
+* [Randstad](https://www.randstad.nl/)
 * [Napoleon Games NV](https://www.napoleongames.be/)
 * [House of HR](https://www.houseofhr.com/)
 * [Boussias  Communications](https://www.openbugbounty.org/reports/1189683/)
