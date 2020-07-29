@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-```
+<pre>
   .o oOOOOOOOo                                            OOOo
     Ob.OOOOOOOo  OOOo.      oOOo.                      .adOOOOOOO
     OboO"""""""""""".OOo. .oOOOOOo.    OOOo.oOOOOOo.."""""""""'OO
@@ -23,7 +23,8 @@ permalink: /about/
                       `$"  `OOOO' `O"Y ' `OOOO'  o             .
     .                  .     OP"          : o     .
                               :
-```
+</pre>
+
 I’m a bachelor computer science student and I write about bug bounties, web application security and programming. Of course, any interesting CS-related article may pop-up. I'm also very interested in pentesting.
 
 [![intigriti vict0ni](https://img.shields.io/badge/intigriti-%40vict0ni-blue?style=flat-square)](https://www.intigriti.com/profile/vict0ni) [![0x00sec vict0ni](https://img.shields.io/badge/0x00sec-%40vict0ni-black?style=flat-square)](https://0x00sec.org/u/vict0ni/)
