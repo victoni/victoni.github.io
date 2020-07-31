@@ -11,4 +11,4 @@ I’m a student doing my bachelor in computer science. I blog about information 
 
 [![Buy me a coffee](https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/rsz_rsz_lato-orange.png)](https://www.buymeacoffee.com/vict0ni)
 
-<center>![ascii](./images/ascii_art.png)</center>
+<!--<center><img src="https://raw.githubusercontent.com/victoni/victoni.github.io/master/images/ascii_art.png"></center>-->
