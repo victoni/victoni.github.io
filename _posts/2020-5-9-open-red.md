@@ -5,9 +5,9 @@ categories: bughunting
 ---
 
 ### Identify:
-* [waybackurls](https://github.com/tomnomnom/waybackurls) + [hakrawler](https://github.com/hakluke/hakrawler) + [gf](https://github.com/tomnomnom/gf)
+* [gau](https://github.com/lc/gau) or [waybackurls](https://github.com/tomnomnom/waybackurls) + [hakrawler](https://github.com/hakluke/hakrawler) + [gf](https://github.com/tomnomnom/gf)
 	
-	*1*. ``cat subdomains | waybackurls | tee -a urls``
+	*1*. ``cat subdomains | gau | tee -a urls``
 	
 	*2*. ``cat subdomains | hakrawler -depth 3 -plain | tee -a urls``
 	
@@ -17,12 +17,12 @@ categories: bughunting
 ```json
 {
     "flags" : "-HanrE",
-    "pattern" : "url=|rt=|cgi-bin/redirect.cgi|continue=|dest=|destination=|go=|out=|redir=|redirect_uri=|redirect_url=|return=|return_path=|returnTo=|rurl=|target=|view=|from_url=|load_url=|file_url=|page_url=|file_name=|page=|folder=|folder_url=|login_url=|img_url=|return_url=|return_to=|next=|redirect=|redirect_to=|logout=|checkout=|checkout_url=|goto=|next_page=|file=|load_file="
+    "pattern" : "url=|rt=|cgi-bin/redirect.cgi|continue=|dest=|destination=|go=|out=|redir=|redirect_uri=|redirect_url=|return=|return_path=|returnTo=|rurl=|target=|view=|from_url=|load_url=|file_url=|page_url=|file_name=|page=|folder=|folder_url=|login_url=|img_url=|return_url=|return_to=|next=|redirect=|redirect_to=|logout=|checkout=|checkout_url=|goto=|next_page=|file=|load_file=|turl="
 }
 ```
 * Google dorks
 
-	``site:domain.com inrul:[PARAMETER]`` using the [parameter list](https://github.com/victoni/Bug-Bounty-Scripts/blob/master/open_redirection_parameters.txt)
+	``site:domain.com inrul:[PARAMETER]`` using the [parameter list](https://github.com/victoni/Bug-Bounty-Scripts/blob/master/lists/open_redirection_parameters.txt)
 * Manual inspection by navigating the webapp and intercepting the requests
 
 
@@ -32,10 +32,11 @@ categories: bughunting
 * ?redirect=https://company.com.attacker.com
 * ?redirect=https://company.com@attacker.com
 * ?redirect=//attacker.com
+* ?redirect=\/\/attacker.com
 * ?redirect=http://attacker.com#company.com
 * ?redirect=http://attacker.com?company.com
 * ?redirect=http://attacker.com/company.com
-* ?redirect=http://ⓔⓧⓐⓜⓟⓛⓔ.ⓒⓞⓜ
+* ?redirect=http://ⓐⓣⓣⓐⓒⓚⓔⓡ.ⓒⓞⓜ
 
 Using special characters:
 ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ 
