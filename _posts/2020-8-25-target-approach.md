@@ -92,4 +92,4 @@ categories: bug hunting
 		* 404 page
 		* Error message
 
-###### tags: `bug-bounty`
+*Last update: 25/8/2020*
