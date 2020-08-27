@@ -70,15 +70,18 @@ p {
 
 a {
   //color: $blue;
-  color: #9ea6ad;
+  //color: #9ea6ad;
+  color: #fff
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #fff;
+    //color: #fff;
+    color: #aaa;
   }
 }
 
 ul, ol {
+  font-size: 23px;
   margin: 15px 0;
   padding-left: 30px;
 }
@@ -242,10 +245,10 @@ nav {
 // .main
 //
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
+//.posts > .post {
+//  padding-bottom: 2em;
+//  border-bottom: 1px solid $lightGray;
+//}
 
 .posts > .post:last-child {
   padding-bottom: 1em;
