@@ -12,13 +12,13 @@ According to [acunetix](https://www.acunetix.com/vulnerabilities/web/hostile-sub
 So, in simple words, a subdomain is vulnerable when the domain is pointing to an expired domain from an external service like Microsoft Azure, Heroku or (in our case) Github Pages. Creating the expired domain/account, you control the content of the original, vulnerable, subdomain.
 
 You can read more about subdomain takeovers from these excellent articles:
-https://www.acunetix.com/vulnerabilities/web/hostile-subdomain-takeover/
-https://www.hackerone.com/blog/Guide-Subdomain-Takeovers
-https://0xpatrik.com/takeover-proofs/
-https://0xpatrik.com/subdomain-takeover-basics/
-https://0xpatrik.com/subdomain-takeover-starbucks/
-https://0xpatrik.com/subdomain-takeover/
-https://0xpatrik.com/subdomain-takeover-starbucks-ii/
+[https://www.acunetix.com/vulnerabilities/web/hostile-subdomain-takeover/](https://www.acunetix.com/vulnerabilities/web/hostile-subdomain-takeover/)
+[https://www.hackerone.com/blog/Guide-Subdomain-Takeovers](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
+[https://0xpatrik.com/takeover-proofs/](https://0xpatrik.com/takeover-proofs/)
+[https://0xpatrik.com/subdomain-takeover-basics/](https://0xpatrik.com/subdomain-takeover-basics/)
+[https://0xpatrik.com/subdomain-takeover-starbucks/](https://0xpatrik.com/subdomain-takeover-starbucks/)
+[https://0xpatrik.com/subdomain-takeover/](https://0xpatrik.com/subdomain-takeover/)
+[https://0xpatrik.com/subdomain-takeover-starbucks-ii/](https://0xpatrik.com/subdomain-takeover-starbucks-ii/)
 
 ## Github Pages Takeover:
 While I was hunting for bugs on a target, I came across the subdomain api.example.com. The webpage's content was this:
