@@ -13,18 +13,18 @@ So, in simple words, a subdomain is vulnerable when the domain is pointing to an
 
 You can read more about subdomain takeovers from these excellent articles:
 
-[acunetix: Hostile Subdomain Takeover](https://www.acunetix.com/vulnerabilities/web/hostile-subdomain-takeover/)
-[hackerone: Guide Subdomain Takeovers](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
-[0xpatrik: Takeover Proofs](https://0xpatrik.com/takeover-proofs/)
-[0xpatrik: Subdomain Takeover Basics](https://0xpatrik.com/subdomain-takeover-basics/)
-[0xpatrik: Subdomain Takeover Starbucks](https://0xpatrik.com/subdomain-takeover-starbucks/)
-[0xpatrik: Subdomain Takeover](https://0xpatrik.com/subdomain-takeover/)
-[0xpatrik: Subdomain Takeover Starbucks II](https://0xpatrik.com/subdomain-takeover-starbucks-ii/)
+* [acunetix: Hostile Subdomain Takeover](https://www.acunetix.com/vulnerabilities/web/hostile-subdomain-takeover/)
+* [hackerone: Guide Subdomain Takeovers](https://www.hackerone.com/blog/Guide-Subdomain-Takeovers)
+* [0xpatrik: Takeover Proofs](https://0xpatrik.com/takeover-proofs/)
+* [0xpatrik: Subdomain Takeover Basics](https://0xpatrik.com/subdomain-takeover-basics/)
+* [0xpatrik: Subdomain Takeover Starbucks](https://0xpatrik.com/subdomain-takeover-starbucks/)
+* [0xpatrik: Subdomain Takeover](https://0xpatrik.com/subdomain-takeover/)
+* [0xpatrik: Subdomain Takeover Starbucks II](https://0xpatrik.com/subdomain-takeover-starbucks-ii/)
 
 ## Github Pages Takeover:
 While I was hunting for bugs on a target, I came across the subdomain api.example.com. The webpage's content was this:
 
-![github 404](../images/sub_takeover.png)
+![github 404](../images/sub_takevoer.png)
 
 This is a strong indication that the subdomain may be vulnerable to takeover. This message indicates that api.example.com points to a Github Pages subdomain, which is no longer valid. Another way to check this is to see what addresses the subdomain is pointing to, with the command
 
