@@ -49,6 +49,7 @@ Yields results and endpoints from the specified filetype, e.g. `filetype:pdf`
 Yields results with the specified title, e.g. `intitle:Organisation intitle:Internal` or `allintitle:Organisation Internal`
 
 * `intext`
+
 Yields results where the specified string was found within the text of a result, e.g. `intext:password`
 
 * `AND`
