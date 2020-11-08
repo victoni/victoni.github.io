@@ -155,20 +155,27 @@ Just like in Google, you can also make use of some filters the site provides in 
 * `http.status`
 
 Returns the servers with the specified http status code, e.g. `http.status:200`.
+
 * `http.title`
 
 Queries for the specified http title that can be found in the banners. A distinctive example is the shodan dork used to find BIG IP vulnerable components: `http.title:"BIG-IP&reg;- Redirect"`.
+
 * `http.component`
 
 Returns servers with the specified web technology that is used on the website, e.g. `http.component:"jenkins"`.
+
 * `ssl`
 
 Finds servers with the specified string included in the SSL certificate, e.g. `ssl:"Microsoft"`. This Filter can be further specified with `ssl.expired`, `ssl.version` (more on the resources).
+
 * `org`
 
 Finds servers with IP belonging to the specified organization's netblock, e.g., `org:"Microsoft"`
+
 * `port`
+
 The port filter returns components with the specified port open, e.g. `port:8080`.
+
 * `os`
 
 Using this filter shodan returns servers running the specified operating system, e.g. `os:Windows`.
