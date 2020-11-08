@@ -29,24 +29,42 @@ or
 There are many filters that one can use with Google dorks. Some filters and operators that come handy when hunting for bugs:
 
 * `site`
+
 Yields results from the specified site/domain, e.g. `site:example.com`
+
 * `inurl` and `allinurl`
+
 Yields results that have the specified string in their URL, e.g. `inurl:cmd` and `allinurl:cmd execute`
+
 * `related`
+
 Yields results related to the specified site/domain. It's useful for finding an organization's aquisitions. E.g. `related:randstad.com` returns results from companies' domains, like `monster.com`, which belongs to Randstad.
+
 * `filetype`
+
 Yields results and endpoints from the specified filetype, e.g. `filetype:pdf`
+
 * `intitle` and `allintitle`
+
 Yields results with the specified title, e.g. `intitle:Organisation intitle:Internal` or `allintitle:Organisation Internal`
+
 * `intext`
 Yields results where the specified string was found within the text of a result, e.g. `intext:password`
+
 * `AND`
+
 Logical AND operator to combine filters, e.g. `site:example.com AND filetype:pdf`
+
 * `OR`, `|`
+
 Logical OR operator to combine filters, e.g. `site:example.com OR site:target.com` or `site:example.com | site:target.com`
+
 * `-`
+
 Exception operator that is to be used before a filter, e.g. `site:example.com -site:www.example.com` will yield results from subdomains of `example.com` except for `www.example.com`. Also `-inurl:www` and `-www` can be used.
+
 * `*`
+
 Used as a wildcard, e.g. `site:www.example.*`
 
 #### Subdomain discovery
@@ -86,12 +104,13 @@ where SECRET is the target secret we want to test/uncover, e.g. `password` and T
 Note that google dorking may return false negatives. That means that even if there is no result yielded from a query, that doesn't mean that it doesn't exist. Google's search engine takes some time to update it's search results, if the website is new or developers prevent google from crawling their website by [including a noindex meta tag in the page's HTML code, or by returning a 'noindex' header in the HTTP request.](https://support.google.com/webmasters/answer/93710?hl=en)
 
 There are a lot of filters and operators to use for google dorks, so here is also some other lists with the available options:
-| Google dorks resources |
-|:------|
-| [Google dork cheatsheet](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06) |
-| [Google Search Operators: The Complete List (42 Advanced Operators)](https://ahrefs.com/blog/google-advanced-search-operators/) |
-|[google-dorks](https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc)|
-| [Listing of a number of useful Google dorks.](https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc) |
+
+### Google dorks resources
+
+1. [Google dork cheatsheet](https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06)
+2. [Google Search Operators: The Complete List (42 Advanced Operators)](https://ahrefs.com/blog/google-advanced-search-operators/)
+3. [google-dorks](https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc)
+4. [Listing of a number of useful Google dorks.](https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc)
 
 
 ### Case study: Content discovery
@@ -133,32 +152,40 @@ This search engine can play an important role in your bug hunting. When the scop
 Just like in Google, you can also make use of some filters the site provides in order to specify you query. Some of the most essentials are:
 
 * `http.status`
+
 Returns the servers with the specified http status code, e.g. `http.status:200`.
 * `http.title`
+
 Queries for the specified http title that can be found in the banners. A distinctive example is the shodan dork used to find BIG IP vulnerable components: `http.title:"BIG-IP&reg;- Redirect"`.
 * `http.component`
+
 Returns servers with the specified web technology that is used on the website, e.g. `http.component:"jenkins"`.
 * `ssl`
+
 Finds servers with the specified string included in the SSL certificate, e.g. `ssl:"Microsoft"`. This Filter can be further specified with `ssl.expired`, `ssl.version` (more on the resources).
 * `org`
+
 Finds servers with IP belonging to the specified organization's netblock, e.g., `org:"Microsoft"`
 * `port`
 The port filter returns components with the specified port open, e.g. `port:8080`.
 * `os`
+
 Using this filter shodan returns servers running the specified operating system, e.g. `os:Windows`.
 * `product`
+
 Using this filter shodan returns devices running this specific product, e.g. `product:"Apache Tomcat"` or `product:"IIS Windows Server"`
 * `version`
+
 The `version` filter is to be combined with the `product` filter. It specifies the version of the specifies product, e.g. `product:"Apache Tomcat" version:"7.0.82"`
 * `vuln`
+
 This filter is only available to academic users or Small Business API subscription and higher. It's used to to return components vulnerable to the specified CVE identifier, e.g. `vuln:cve-2010-2730`.
 
-Here are resources for shodan and its filters/use.
-| Shodan filters resources |
-|:------|
-| [shodan-filters](https://github.com/JavierOlmedo/shodan-filters) |
-| [Search Query Fundamentals](https://help.shodan.io/the-basics/search-query-fundamentals) |
-| [awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries) |
+### Shodan filters resources
+
+1. [shodan-filters](https://github.com/JavierOlmedo/shodan-filters)
+2. [Search Query Fundamentals](https://help.shodan.io/the-basics/search-query-fundamentals)
+3. [awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries)
 
 Of course, the more filters you use in a query, the more specified the query is.
 
