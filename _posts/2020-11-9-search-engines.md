@@ -122,7 +122,7 @@ Although Shodan is a pretty known and popular I think it's not used that often f
 
 Shodan is a search engine for internet-connected devices. It is a specific purpose search engine, created first as a pet project. Now it is used to aid researchers on their work. It collects information about web servers, such as open ports, services running on those ports and their banners. Making a query, let's say "microsoft" will yield any device in shodan's database that contains the word `microsoft` in its banners
 
-<center><img src="https://i.imgur.com/rrsM4D2.png" ...></center>
+<center><img src="https://i.imgur.com/rrsM4D2.png"></center>
 
 \
 Shodan is best used with a one-time payment, where one gets access to most of it's powers. But to use it's specifiers (filters) you need to make a free account.
