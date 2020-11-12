@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vict0ni
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vict0ni.me
+  * I am vict0ni (https://keybase.io/vict0ni) on keybase.
+  * I have a public key ASC3rWEhyiaBKcwK64tblGfwz-sbkAoGvN4IurY0vqGXxQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206b3ad39a076ba58ba9ac7c0fa40096720af88eca8b71688a3f4dbe27462efcea0a",
+      "host": "keybase.io",
+      "kid": "0120b7ad6121ca268129cc0aeb8b5b9467f0cfeb1b900a06bcde08bab634bea197c50a",
+      "uid": "af3fe587edabe1acf41d2130523a3c19",
+      "username": "vict0ni"
+    },
+    "merkle_root": {
+      "ctime": 1605223972,
+      "hash": "f9d04ec306367faa88fbf830588cc636a0d76929ee036e015decb764b83c95de968ee198a7dc31b1d90a7d4f8597727e113518579b15d9f1140d78763d8e605a",
+      "hash_meta": "96176d8fdfd19a9ae8d849b5fb2e443cf7fa676613c0c3d9ad926f5bf7215c8f",
+      "seqno": 18107018
+    },
+    "service": {
+      "entropy": "ednGDws9n6tKEaNQPulLXzKg",
+      "hostname": "vict0ni.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.2"
+  },
+  "ctime": 1605224022,
+  "expire_in": 504576000,
+  "prev": "39d059bef7e5b8fed5b4c577d42f4efb87b2f93a08424609fe69290137065851",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgt61hIcomgSnMCuuLW5Rn8M/rG5AKBrzeCLq2NL6hl8UKp3BheWxvYWTESpcCDMQgOdBZvvfluP7VtMV31C9O+4ey+ToIQkYJ/mkpATcGWFHEIN/hoMh21vfJwKbAG5wVRyJ3hltZh+a+Op/qKof47XHvAgHCo3NpZ8RAsE2shMtVIzr0B5oidiRIoKIaV5IV5lcOlaJZAg25nsbZ0yRZrVBi6XU5Pfjkw/VQEvHKU6Evf1zCjtLsOKrBDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAgTQiISf8r+WekeG3F31Cv7HjXrNfyBhpDd0O47Dm1Oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vict0ni
+
+==================================================================
