@@ -1,0 +1,30 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: about
+    entries:
+      - title: CS student, bug hunter, aspiring pentester. Devops wannabe.
+      - title: email
+        url: vict0ni@protonmail.com
+      - title: Twitter
+        url: https://twitter.com/vict0ni
+      - title: Github
+        url: https://github.com/victoni
+
+  - title: Projects
+    entries:
+      - title: Bug-Bounty-Scripts
+        url: https://github.com/victoni/Bug-Bounty-Scripts
+      - title: openbugbounty.org scrapper
+        url: https://github.com/victoni/OBB_scrapper
+
+  - title: Posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml
