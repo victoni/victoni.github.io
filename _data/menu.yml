@@ -12,12 +12,6 @@ entries:
       - title: Github
         url: https://github.com/victoni
 
-  - title: Projects
-    entries:
-      - title: Bug-Bounty-Scripts
-        url: https://github.com/victoni/Bug-Bounty-Scripts
-      - title: openbugbounty.org scrapper
-        url: https://github.com/victoni/OBB_scrapper
 
   - title: Posts
     post_list:
@@ -25,6 +19,13 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
+  
+  - title: Projects
+    entries:
+      - title: Bug-Bounty-Scripts
+        url: https://github.com/victoni/Bug-Bounty-Scripts
+      - title: openbugbounty.org scrapper
+        url: https://github.com/victoni/OBB_scrapper
 
   - title: rss
     url: feed.xml
