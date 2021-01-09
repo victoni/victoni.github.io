@@ -4,15 +4,13 @@
 entries:
   - title: about
     entries:
-      - title: CS student, bug hunter, aspiring pentester. Devops wannabe.
+      - title: Bug Hunting & WebSec | Community Manager at <a href='https://0x00sec.org/'>0x00sec</a>
       - title: email
         url: mailto:vict0ni@protonmail.com
       - title: Twitter
         url: https://twitter.com/vict0ni
       - title: Github
         url: https://github.com/victoni
-      - title: 0x00sec
-        url: https://0x00sec.org/u/vict0ni
 
 
   - title: Posts
