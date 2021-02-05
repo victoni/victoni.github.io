@@ -5,6 +5,7 @@ categories: cve
 ---
 
 ## Report2Web Login Panel XSS
+[Report2Web](https://www.redwood.com/report-distribution) v4.3.4.5 and v4.5.3 are vulnerable to XSS. v4.3.4.5 is also vulnerable to frame injection. Both issues are fixed in v4.6.0. 
 The value of the `urll` parameter is getting reflected without an sanitization, allowing a remote attacker to inject javascript code to the victim's browser.
 
 Request:
