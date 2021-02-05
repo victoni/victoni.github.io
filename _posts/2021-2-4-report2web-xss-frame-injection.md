@@ -36,7 +36,7 @@ Response:
 ```
 
 ## Report2Web Online Help Frame Injection
-The `turl` parameter takes a local path as input and diplays it's content inside a frame, e.g. `?turl=/local/path/doc.html`. You can bypass the protection by using `\/hostname.tld` which the browser translates to `//hostname.tld` and then to `https://example.com`, loading a malicious website inside the frame, leading to vulnerabilities like content injection and XSS.
+The `turl` parameter takes a local path as input and diplays it's content inside a frame, e.g. `?turl=/local/path/doc.html`. You can bypass the protection by using `\/hostname.tld` which the browser translates to `//hostname.tld` and then to `https://hostname.tld`, loading a malicious website inside the frame and leading to vulnerabilities like content injection and XSS.
 
 Request:
 ```
