@@ -22,10 +22,12 @@ entries:
   
   - title: Projects
     entries:
+      - title: CVE-2021-26710
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26710
+      - title: CVE-2021-26711
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26711
       - title: Bug-Bounty-Scripts
         url: https://github.com/victoni/Bug-Bounty-Scripts
-      - title: openbugbounty.org scrapper
-        url: https://github.com/victoni/OBB_scrapper
 
   - title: rss
     url: feed.xml
