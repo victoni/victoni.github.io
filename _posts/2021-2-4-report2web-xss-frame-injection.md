@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Redwood Report2Web XSS and Frame injection
-categories: cve
+title: Redwood Report2Web XSS and Frame Injection
+categories: cve-2021-26710 cve-2021-26711 xss frame injection
 ---
 
 [Report2Web](https://www.redwood.com/report-distribution) v4.3.4.5 and v4.5.3 are vulnerable to XSS. v4.3.4.5 is also vulnerable to frame injection. Both issues are fixed in v4.6.0.
 
-## Report2Web Login Panel XSS
-The value of the `urll` parameter is getting reflected without an sanitization, allowing a remote attacker to inject javascript code to the victim's browser.
+## Report2Web Login Panel XSS - CVE-2021-26710
+The value of the `urll` parameter is getting reflected without any sanitization, allowing a remote attacker to inject javascript code to the victim's browser.
 
 Request:
 ```
@@ -35,7 +35,7 @@ Response:
 ...
 ```
 
-## Report2Web Online Help Frame Injection
+## Report2Web Online Help Frame Injection - CVE-2021-26711
 The `turl` parameter takes a local path as input and diplays it's content inside a frame, e.g. `?turl=/local/path/doc.html`. You can bypass the protection by using `\/hostname.tld` which the browser translates to `//hostname.tld` and then to `https://hostname.tld`, loading a malicious website inside the frame and leading to vulnerabilities like content injection and XSS.
 
 Request:
