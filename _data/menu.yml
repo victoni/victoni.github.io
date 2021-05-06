@@ -13,6 +13,9 @@ entries:
         url: https://github.com/victoni
 
   - title: Posts
+    entries:
+      - title: CVE-2021-26710
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26710
     post_list:
       limit: 5
       show_more: true
