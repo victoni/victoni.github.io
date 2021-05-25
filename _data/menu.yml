@@ -21,14 +21,16 @@ entries:
   
   - title: Research
     entries:
+      - title: CVE-2021-24347
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24347
       - title: CVE-2021-26710
         url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26710
       - title: CVE-2021-26711
         url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26711
       - title: CVE-2021-24288
-        url: https://wpscan.com/vulnerability/56628862-1687-4862-9ed4-145d8dfbca97
-      #- title: Bug-Bounty-Scripts
-      #  url: https://github.com/victoni/Bug-Bounty-Scripts
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24288
+      - title: CVE-2021-24309
+        url: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-24309
 
   - title: rss
     url: feed.xml
