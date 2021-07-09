@@ -2,10 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about
+  - title: About
     entries:
-      - title: WebSec & Pentesting | Community Manager <a href='https://0x00sec.org/'>@0x00sec</a> | Cyber stuff <a href='https://www.bitcrack.net/'>@Bitcrack</a>
-      - title: email
+      - title: WebSec & Pentesting | Security <a href='https://www.bitcrack.net/'>@Bitcrack</a> | Community Manager <a href='https://0x00sec.org/'>@0x00sec</a>
+      - title: Email
         url: mailto:vict0ni@protonmail.com
       - title: Twitter
         url: https://twitter.com/vict0ni
